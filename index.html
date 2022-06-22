@@ -4,30 +4,54 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>TRAVELJONES</title>
     <link="https://www.travel-advisory.info/api" rel="stylesheet"/>
-    <link rel="stylesheet" type="text/css" href="styles/main.css"/>
+    <link rel="stylesheet" type="text/css" href="./index.css"/>
     <script defer type="text/javascript" src="src/index.js"></script>
 </head>
 <body>
     <header>
-        <h1>TRAVELJONES</h1>
-        <div>
-            <ul>HOME</ul>
-            <ul>ABOUT</ul>
-            <ul>CONTACT</ul>
-        </div>
-        <h2>COUNTRY NAME</h2>
-        <H3>COUNTRY LIST</H3>
+        <h3>TRAVELJONES</h3>
         <nav>
-            <ul id="COUNTRY LIST">
-                <li>Country A</li>
-                <li>Country B</li>
-                <li>Country C</li>
-                <li>Country D</li>
-            </ul>
+          <ul id="country list">
+            <li>Country A</li>
+            <li>Country B</li>
+            <li>Country C</li>
+            <li>Country D</li>
+          </ul>
         </nav>
-    </header>
-    
-</body>
-</html>
+      </header>
+  
+      <main>
+        <div class="country-details">
+          <h2 id="Country name">Country A</h2>
+          <img
+            id="country-image"
+            alt="Country Name Goes Here"
+            src="https://cdn.pixabay.com/photo/2017/01/13/07/41/kyoto-1976538_960_720.jpg"
+          />
+          <p>
+            <em id="country-description">Country Description Goes Here</em>
+          </p>
+  
+          <form id="description-form">
+            <label for="description">Edited Description:</label>
+            <textarea id="description"></textarea>
+            <button type="submit">Update Coutry</button>
+          </form>
+  
+          <h3>Customer Reviews</h3>
+          <ul id="review-list">
+            <li>Replace with actual reviews</li>
+            <li>From the server</li>
+          </ul>
+          <form id="review-form">
+            <label for="review">Your Review:</label>
+            <textarea id="review"></textarea>
+            <button type="submit">Add review</button>
+          </form>
+        </div>
+      </main>
+    </body>
+  </html>
+  
