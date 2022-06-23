@@ -72,7 +72,6 @@
       
       .country-details h2 {
         font-size: 32px;
-        text-align: left;
       }
       
       
@@ -120,12 +119,13 @@
         border-radius: 5px;
         padding: 20px;
         margin-bottom: 20px;
+        margin-left: 25%;
       }
       .review-form {
         display: end;
       }
       #review{
-        text-align: end;
+        display: inline;
 
       }
       #country-description {
