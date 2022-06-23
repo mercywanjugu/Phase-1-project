@@ -1,78 +1,104 @@
 
-    body {
+      body {
         box-sizing: border-box;
         margin: 0;
         font-family: "Open Sans", sans-serif;
         font-size: 14px;
         color: #404040;
+        border
+      }
+
+      #Country-list {
+        ;
+      }
+
+      
+      nav{
+        background-color: cornflowerblue;
+        display: flex;
+        justify-content:space-between;
+
+      }
+      nav > .logo, .thelinks{
+        margin: 15px;
+      }
+      nav > .logo > h1{
+        font-size: 30px;
+        color: white;
       }
       
-      header {
-        float: left;
-        width: 225px;
-        height: auto;
-        
+      nav > .thelinks > ul > li{
+        display: inline-block;
         padding: 10px;
-        margin-right: 10px;
+        color: white;
       }
       
-      h3{
-        font-family: "Great Vibes", cursive;
-        font-size: 39x;
-        color: #3493d5;
-        text-align: center;
+      .left{
+        float: inline-end;
       }
-      
-      ul {
-        padding: 0;
+      h1{
+        color: aqua;
       }
+      .logo {
+        text-align:inline;
+        font-size: xx-large;
+        
+      }
+      .heading> .left> .right {
+        width: 50%;
+        
+      }
+      #Country-list {
       
-      li {
+    float: right;
+    width: calc(25% - 20px);
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+    height: 200px;
+    border:1px solid #c4c4c4;
+    margin-top: 80px;
+      }
+      #Country-list ul li{
+        text-align: inline;
+        padding-right: 40px;
+
+      }
+      #Country-name {
+        text-align: start;
+        color:#f1a458
+        
+      }
+      ul li {
         list-style: none;
-      }
-      
-      nav ul {
-        margin-left: 15px;
-      }
-      
-      nav ul li {
-        padding: 5px;
-        cursor: pointer;
-      }
-      
-      nav ul li:hover {
-        background-color: #f1a458;
-        color: #fff;
-      }
-      
-      main {
-        float: left;
-        margin-left: 50px;
-        width: 600px;
+        font-size: xx-large;
       }
       
       .country-details h2 {
         font-size: 32px;
-        text-align: center;
+        text-align: left;
       }
+      
       
       .country-details h3 {
         font-size: 24px;
       }
       
-      .country-details img {
-        display: block;
-        height: 100px;
-        width: 100px;
+      #country-image {
+        /*display: block; */
+        height: 300px;
+        width: 500px;
         margin: 0 auto 25px auto;
+        padding-left: 20px;
+        
       }
       
-      form {
+      #description-form {
         width: 450px;
         margin: 0 auto 50px auto;
       }
       
-      textarea {
+      #text area {
         display: block;
         width: 100%;
         height: 100px;
@@ -82,7 +108,7 @@
         margin-bottom: 10px;
       }
       
-      form button[type="submit"] {
+      #form button[type="submit"] {
         border: none;
         font-size: 16px;
         font-weight: 600;
@@ -93,10 +119,27 @@
         cursor: pointer;
       }
       
-      #review-list li {
-        background-color: #fff3a9;
+      .review-list ul li {
+        background-color: green;
         border-radius: 5px;
         padding: 20px;
         margin-bottom: 20px;
       }
-      
+      .review-form {
+        display: end;
+      }
+      #review{
+        text-align: end;
+
+      }
+      #country-description {
+        
+    float: left;
+    width: calc(25% - 20px);
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+    height: 400px;
+    border:1px solid #c4c4c4;
+      }
+    
