@@ -148,3 +148,31 @@
     margin-bottom: 10px;
       }
     
+
+
+      .comments{
+        margin-top: 50px;
+        text-align: center;
+        font-style: italic;
+      }
+      .comments> h2{
+        font-size: larger;
+      }
+      #comment-box{
+         width: 50%;
+         text-align: center;
+         font-size: larger;
+         color: black;
+         background-color: none;
+         height: 5vh;
+      
+      }
+       #post {
+        border: none;
+        border-radius: 5px;
+        height: 3vh;
+        background-color: dodgerblue;
+      }
+      #post:hover{
+        background-color: white;
+      }
