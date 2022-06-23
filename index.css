@@ -31,9 +31,6 @@
       .left{
         float: inline-end;
       }
-      h1{
-        color: aqua;
-      }
       .logo {
         text-align:inline;
         font-size: xx-large;
@@ -61,7 +58,7 @@
       }
       #Country-name {
         text-align: start;
-        color:#f1a458
+        color:#404040
         
       }
       ul li {
