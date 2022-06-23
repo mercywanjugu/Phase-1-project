@@ -15,11 +15,13 @@
 
       }
       nav > .logo, .thelinks{
-        margin: 15px;
+        margin: 20px;
       }
       nav > .logo > h1{
-        font-size: 30px;
+        font-size: 40px;
         color: white;
+        font-weight: 900;
+        font-style: italic;
       }
       
       nav > .thelinks > ul > li{
@@ -43,11 +45,11 @@
       #Country-list {
       
     float: right;
-    width: calc(25% - 20px);
+    width: calc(35% - 20px);
     padding: 10px;
-    border-radius: 10px;
+    border-radius: 40px;
     margin: 10px;
-    height: 200px;
+    height: 250px;
     border:1px solid #c4c4c4;
     margin-top: 80px;
       }
