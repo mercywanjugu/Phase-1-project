@@ -52,10 +52,12 @@
     height: 250px;
     border:1px solid #c4c4c4;
     margin-top: 80px;
+    
       }
       #Country-list ul li{
         text-align: inline;
         padding-right: 40px;
+        margin-bottom: 30px;
 
       }
       #Country-name {
