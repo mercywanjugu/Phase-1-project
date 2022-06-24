@@ -9,8 +9,7 @@ It does not need any installation , just open it up directly in your device.
 ## Usage
 To use our services, you will require :
 
->Wifi/data bundles
->computer/smart phone
+Wifi/data bundles  and computer/smart phone
 
 
 ## Contributing
