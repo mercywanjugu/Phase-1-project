@@ -3,26 +3,26 @@
       {
         "id": 1,
         "name": "Kenya:The Home of Big 5  ",
-        "Country description": "Kenya is a country in East Africa with coastline on the Indian Ocean. It encompasses savannah, lakelands, the dramatic Great Rift Valley and mountain highlands. It's also home to wildlife like lions, elephants and rhinos. From Nairobi, the capital, safaris visit the Maasai Mara Reserve, known for its annual wildebeest migrations, and Amboseli National Park, offering views of Tanzania's 5,895m Mt. Kilimanjaro.",
+        "CountryDescription": "Kenya is a country in East Africa with coastline on the Indian Ocean. It encompasses savannah, lakelands, the dramatic Great Rift Valley and mountain highlands. It's also home to wildlife like lions, elephants and rhinos. From Nairobi, the capital, safaris visit the Maasai Mara Reserve, known for its annual wildebeest migrations, and Amboseli National Park, offering views of Tanzania's 5,895m Mt. Kilimanjaro.",
         "Population": "54,985,698"
         
       },
       {
         "id": 2,
         "name": "Tanzania:Home for exotic wildlife and rich culture",
-        "Country description": "Tanzania is the largest country in East Africa and includes the islands of Zanzibar, Pemba, and Mafia. About twice the size of California, this African country is bordered by the Indian Ocean and eight countries: Kenya, Uganda, Rwanda, Burundi, Democratic Republic of Congo, Zambia, Malawi, and Mozambique.",
+        "CountryDescription": "Tanzania is the largest country in East Africa and includes the islands of Zanzibar, Pemba, and Mafia. About twice the size of California, this African country is bordered by the Indian Ocean and eight countries: Kenya, Uganda, Rwanda, Burundi, Democratic Republic of Congo, Zambia, Malawi, and Mozambique.",
         "Population": "61,498,437 or 61.498"
       },
       {
         "id": 3,
         "name": "Uganda:Pearl of Africa",
-        "Country description": "Uganda is in the African Great Lakes region. Uganda also lies within the Nile basin and has a varied but generally a modified equatorial climate. It has a population of over 42 million, of which 8.5 million live in the capital and largest city of Kampala.",
+        "CountryDescription": "Uganda is in the African Great Lakes region. Uganda also lies within the Nile basin and has a varied but generally a modified equatorial climate. It has a population of over 42 million, of which 8.5 million live in the capital and largest city of Kampala.",
         "Population": "45.74 million"
       },
       {
         "id": 4,
         "name": "Ethiopia:the place where the coffee bean originated",
-        "Country description": "A country of northeast Africa. A kingdom was established around Aksum in the 1st century ad and declined in the 7th century. After a long period of disorder, the area was finally reunited in 1889 by Emperor Menelik II, who greatly expanded Ethiopia by conquest.",
+        "CountryDescription": "A country of northeast Africa. A kingdom was established around Aksum in the 1st century ad and declined in the 7th century. After a long period of disorder, the area was finally reunited in 1889 by Emperor Menelik II, who greatly expanded Ethiopia by conquest.",
         "Population": "115 million"
       }
     ]
