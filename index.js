@@ -55,4 +55,4 @@ fetch(url)
 	 	alert('Your comment has been submited');
 	 }
 	submit.addEventListener('click', alertBtn1);
-Footer
+
