@@ -21,12 +21,12 @@
 
 //  // update description
 //  if (status){
-//      countryDescriptionForm.removeEventListener('submit',updateDescription, false);
-//      status = !status
-//  } else {
-//      countryDescriptionForm.addEventListener('submit',updateDescription, false);
-//      status = !status
-//  }
+  //     countryDescriptionForm.removeEventListener('submit',updateDescription, false);
+  //     status = !status
+  // } else {
+  //     countryDescriptionForm.addEventListener('submit',updateDescription, false);
+  //     status = !status
+  // }
 
 //  function updateDescription(env){
 //      env.preventDefault();        
@@ -59,21 +59,24 @@
 
 
 
-  function patchCountry(country){
-  console.log(country, country.id)
-  fetch(`https://www.travel-advisory.info/widget-no-js?countrycode=ISOCODE${AU}`,
-      {
-          method: 'PATCH',
-          headers: {'Content-Type': 'application/json'},
-          body: JSON.stringify(country)
-      })
-      .then(response => response.json())
-      .then(data => countryRender(data))
-     .catch(err => console.log(`Error: ${err}`))
-  };
+   function patchCountry(country){
+   console.log(country, country.id)
+  fetch('https://www.travel-advisory.info/api')
+       .then(response => response.json())
+       .then(data => console.log(data))
+        countryRender(data)
+      .catch(err => console.log(`Error: ${err}`))
+   };
+  
+ 
+  
 
 
 
+  // fetch('https://www.travel-advisory.info/api')
+	// .then(response => response.json())
+	// .then(response => console.log(response))
+	// .catch(err => console.error(err));
 
  //comment box 
  const post = document.getElementById("post");
@@ -98,6 +101,6 @@
    p.appendChild(text);
    document.getElementById("country-description").appendChild(p);
  });
-// countryButton();
- //countryDescription();
+ countryButton();
+ countryDescription();
  
