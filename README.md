@@ -1,6 +1,6 @@
 # TRAVELJONES
 
-It is an online platform where you can clear your doubts by confirming the safety and risks associated with different countries.
+It is an online platform where you can check on the population of a country and it's history
 
 ## Installation
 
