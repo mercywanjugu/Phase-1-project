@@ -4,7 +4,9 @@
         "id": 1,
         "name": "Kenya:The Home of Big 5  ",
         "CountryDescription": "Kenya is a country in East Africa with coastline on the Indian Ocean. It encompasses savannah, lakelands, the dramatic Great Rift Valley and mountain highlands. It's also home to wildlife like lions, elephants and rhinos. From Nairobi, the capital, safaris visit the Maasai Mara Reserve, known for its annual wildebeest migrations, and Amboseli National Park, offering views of Tanzania's 5,895m Mt. Kilimanjaro.",
-        "Population": "Fifty four million"
+        "Population": "Fifty four million",
+        "imgUrl":"https://cdn.pixabay.com/photo/2017/03/27/13/02/elephants-2178578_960_720.jpg"
+
         
       },
       {
