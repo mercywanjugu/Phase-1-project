@@ -19,7 +19,7 @@ fetch(url)
 			 <div class="card">
                       <h4 class="title"><span>Name</span>: ${value.name}</h4>
                       <h4 id="author"><span>Population</span>: ${value.Population}</h4>
-                   <img class="card-img-top" src="${value.imgUrl}" alt="Card image" style="width:50%">
+                   <img class="card-img-top" src="${value.imgUrl}" alt="Card image" style="width:99%">
                  <div class="card-body">
                  
                    <p class="card-text">${value.CountryDescription}</p>
